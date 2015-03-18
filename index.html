@@ -1,0 +1,1396 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Remi Prevost</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="fontello-8838cf85/css/fontello.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-mfizz-1.2/font-mfizz.css">
+    <meta charset="utf-8">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.inview.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $('.scrollTo').click(function () {
+                var page = $(this).attr('href');
+                var speed = 750;
+                $('html, body').animate({ scrollTop: $(page).offset().top }, speed);
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body id="body" data-spy="scroll" data-target=".navbar-active">
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="scrollTo navbar-brand" href="#body">Rémi Prévost</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-active">
+                <ul class="nav navbar-nav navbar-right role=" tablist">
+                    <li><a class="scrollTo" href="#section_about">A propos</a></li>
+                    <li><a class="scrollTo" href="#section_cv">CV</a></li>
+                    <li><a class="scrollTo" href="#section_work">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="intro">
+        <div class="table-align">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-3">
+                        <img src="img/me_cadre.png" alt="me" style="width:150px; height:150px" />
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Hey! Salut :) </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+
+        <section id="section_about" class="col-xs-12">
+            <h2>Moi, c'est Rémi</h2>
+            <hr id="barre_section_about" class="hr_titre" />
+
+            <div class="row">
+                <div class="col-sm-9">
+                    <div id="description">
+                        <p>
+                            Je suis étudiant en 4ème année d'école d'ingénieur à l'Institut National des
+                            Sciences Appliquées (INSA) de Toulouse.
+                        </p>
+                        <p>
+                            Ma spécialité, Informatique et Réseaux est également ma passion depuis de nombreuses années.
+                            Plus précisémenent, je suis passionné par la programmation et le développement logiciel. J'aime
+                            mettre les mains dans le code mais j'aime également prendre du recul pour faire de la gestion
+                            de projet de développement, faire un suivi de bout en bout, et manager des équipes.
+                        </p>
+                        <p>
+                            J'ai acquis les capacités nécessaires à ces activités au cours de mon cursus à l'INSA, mais surtout
+                            grâce à mes projets de développement personnels.
+                        </p>
+                        <p>
+                            Mon objectif à la sortie de l'INSA est donc en toute logique d'entrer dans le monde du développement logiciel.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 visible-xs-block"><hr /></div>
+                <div class="col-sm-3" id="contact">
+                    <h3>Contact</h3>
+                    <p>
+                        Rémi Prévost, 22 ans
+                        <br />Titulaire du permis B
+                    </p>
+
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true" style="font-size:1.2em;color:#505050"></span>
+
+                    <a href="mailto:rprevost@etud.insa-toulouse.fr">rprevost@etud.insa-toulouse.fr</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="section_cv" class="col-xs-12">      
+
+            <h2>CV</h2>
+            <hr class="hr_titre" />
+            <div class="row">
+                <div class="col-xs-12 col-lg-8">
+                    <div class="row">
+                        <div id="timeline_dev" class="col-sm-12 col-md-6">
+                            <h3>Développements</h3>
+                            <div class="timeline-centered">
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2015</span><span>1 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+
+                                        <div class="timeline-label label_dev">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#work_insaconnect">
+                                                    <h4>INSAConnect</h4>
+                                                    <span class="icon-google-developers green" title="Extension Google Chrome (HTML - CSS - JavaScript)"></span>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Extension Google Chrome (HTML - CSS - JavaScript)
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2014</span><span>5 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#work_riosport">
+                                                    <h4>RioSport</h4>
+                                                    <span class="fa fa-android fa-2x green" style="margin-left:10px" title="Application Android avec Web Service (Java - PHP - SOAP - MySQL)"></span>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description" style="margin-top:5px;">
+                                                        Application Android - Java - avec Web Service  - PHP - SOAP - MySQL
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2014</span><span>2 sem</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#work_rj">
+                                                    <h4>RJ - Carnet de voyage</h4>
+                                                    <i class="glyphicon glyphicon-globe green" title="HTML - CSS - JavaScript - PHP - MySQL"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Site Web dynamique - HTML - CSS - JavaScript - PHP - MySQL
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2014</span><span>2 sem</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+
+                                        <div id="0" class="timeline-label label_dev">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>IEEE 802.11n</h4>
+                                                    <i class="glyphicon glyphicon-globe green" title="HTML - CSS"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Site Web Statique - HTML - CSS - Javascript
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2014</span> <span></span>3 mois</time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev" style="padding-top:3px">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>MovieFinder</h4>
+                                                    <i class="fa fa-windows green" style="font-size:2em;" title="Java - PostgreSQL"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Application Windows - Java - PostgreSQL
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2014</span> <span></span>5 mois</time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev" style="padding-top:6px">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>Tir-Laser</h4>
+                                                    <i class="icon-target green" title="Assembleur - C"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Electronique et programmation bas niveau - Assembleur - C
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2014</span> <span></span>5 mois</time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev" style="padding-top:6px">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>SimpTCP</h4>
+                                                    <i class="fa fa-wifi fa-2x green" title="C"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Programmation réseau - C
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2013</span> <span></span>4 mois</time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev" style="padding-top:6px">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>Création d'itinéraire</h4>
+                                                    <i class="fa fa-linux fa-2x green" style="font-size:2em;" title=" java"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Recherche de meilleur itinéraire par la théorie des graphes - Java
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2013</span> <span></span>1 mois</time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev" style="padding-top:6px">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>Aggrégateur d'image</h4>
+                                                    <i class="fa fa-windows fa-2x green" title="C"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Aggrégateur et désaggrégateur d'images - C
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2012</span> <span></span>3 mois</time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev" style="padding-top:6px">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>Application de l'algorithme de Gale-Shapley</h4>
+                                                    <i class="fa fa-linux fa-2x green" title="Ada"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Résolution du problème des mariages avec l'algoritme de Gale et Shapley - Ada
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2011</span> <span></span>1 mois</time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-cog green" title="Développement"></i>
+                                        </div>
+                                        <div class="timeline-label label_dev" style="padding-top:6px">
+                                            <div class="row">
+                                                <a class="scrollTo" href="#section_work">
+                                                    <h4>Casse-Brique</h4>
+                                                    <i class="fa fa-linux fa-2x green" title="Ada"></i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <p class="description">
+                                                        Jeu de casse-brique - Ada
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry begin">
+
+                                    <div class="timeline-entry-inner">
+
+                                        <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                                            <i class="entypo-flight"></i>
+                                        </div>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+                        </div>
+
+                        <div id="timeline_form" class="col-sm-12 col-md-6">
+                            <h3>Formation</h3>
+                            <div class="timeline-centered">
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time" datetime="2014-01-10T03:45"><span>2015</span><span></span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-education green" title="Formation"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Préparation de la certification CISCO CCNA&nbsp;Routing&nbsp;&amp;&nbsp;Switching</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time" datetime="2014-01-10T03:45"><span>2014</span> <span></span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-education green" title="Formation"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Semestre d'étude à l'UFRJ de Rio de Janeiro, Brésil</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2011</span> <span></span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-education green" title="Formation"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Entrée à l'Institut National des Sciences Appliquées (INSA) de Toulouse(31)</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time" datetime="2014-01-10T03:45"><span>2011</span> <span></span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-education green" title="Formation"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Diplôme&nbsp;du&nbsp;Baccalauréat, spécialité&nbsp;Physique-Chimie: Mention&nbsp;Très&nbsp;Bien</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2008</span> <span></span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-education green" title="Formation"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Entrée au lycée&nbsp;Paul&nbsp;Sabatier, Carcassonne(11)</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2008</span> <span></span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-education green" title="Formation"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Diplôme du Brevet des Collèges: Mention&nbsp;Très&nbsp;Bien</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2004</span> <span></span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-education green" title="Formation"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Entrée au Collège&nbsp;Emile&nbsp;Alain, Carcassonne(11)</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry begin">
+
+                                    <div class="timeline-entry-inner">
+
+                                        <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                                            <i class="entypo-flight"></i>
+                                        </div>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div id="timeline_prof" class=" col-sm-12 col-md-6">
+
+                            <h3>Expériences Professionnelles</h3>
+                            <div class="timeline-centered">
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2013</span><span>2 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-briefcase green" title="Expérience professionnelle"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Gardiennage au festival de Carcassonne, Aude</h5>
+                                            <p>Surveillance du théatre de la cité de Carcassonne. Apprentissage de la patience et du relationnel client</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2012</span> <span>2 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-briefcase green" title="Expérience professionnelle"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Stage d'étude des chantiers du groupement Hydroélectrique d'EDF de l'Ariège</h5>
+                                            <p>
+                                                Découverte des intallations la production d'électricité à partir de la force hydraulique et assistance à la réalisation
+                                                de chantiers sur ces installations.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2011</span> <span>2 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-briefcase green" title="Expérience professionnelle"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Agent d'accueil des touristes plaisanciers du port de Carcassonne, Aude</h5>
+                                            <p>Apprentissage du relationnel avec une clientelle internationale.</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2010</span> <span>2 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-briefcase green" title="Expérience professionnelle"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Fauchage à la commune de Mérens-Les-Vals, Ariège</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2009</span> <span>2 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-briefcase green" title="Expérience professionnelle"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Nettoyage au camping municipal de Mérens-Les-Vals, Ariège</h5>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry begin">
+
+                                    <div class="timeline-entry-inner">
+
+                                        <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                                            <i class="entypo-flight"></i>
+                                        </div>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+                        </div>
+
+                        <div id="timeline_voyage" class=" col-sm-12 col-md-6">
+                            <h3>Séjours à l'étranger</h3>
+                            <div class="timeline-centered">
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2014</span> <span>6 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-plane green" style="left:-1px;" title="Sejour à l'étranger"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Semestre d'étude à l'UFRJ de Rio de Janeiro, Brésil</h5>
+                                            <p>Découverte et apprentissage du Portugais</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2010</span><span>1 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-plane green" style="left:-1px;" title="Sejour à l'étranger"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Echange et représentation de théatre avec une troupe Ecossaise de Tobermory, Ecosse</h5>
+                                            <p>Consolidation de mon anglais, plus particulièrement ma compéhension orale et mon expression orale</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2009</span> <span>1 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-plane green" style="left:-1px;" title="Sejour à l'étranger"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Séjour en famille d'accueil dans la ville d'Hastings, Angleterre</h5>
+                                            <p>Développement de mes bases en anglais</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry">
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time"><span>2008</span> <span>1 mois</span></time>
+                                        <div class="timeline-icon ">
+                                            <i class="glyphicon glyphicon-plane green" style="left:-1px;" title="Sejour à l'étranger"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h5>Séjour en famille d'accueil dans la ville de Weymouth, Angleterre</h5>
+                                            <p>Découverte de l'Angleterre, ses habitants et sa culture. Première immerssion dans la langue anglaise.</p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-entry begin">
+
+                                    <div class="timeline-entry-inner">
+
+                                        <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                                            <i class="entypo-flight"></i>
+                                        </div>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="competences" class="col-xs-12 col-lg-4">
+                    <h3>Compétences</h3>
+                    <article id="prog_lang" style="max-width: 500px">
+                        <h4 style="text-align:left">Langages de programmation:</h4>
+
+                        <div class="row">
+
+                            <div class="col-xs-1" data-toggle="tooltip" data-placement="left" title="coucou">
+
+                                <i class="icon-java" title="Java"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="icon-c" title="C"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="icon-javascript" title="Javascript"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="icon-mysql-alt" title="MySQL"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="fa fa-css3 fa-2x" style="padding-left:7px" title="CSS"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="fa fa-html5 fa-2x" style="padding-left:10px" title="HTML"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="icon-php" title="PHP"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="icon-postgres" title="PostgreSQL"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <img src="img/ada.png" style="width:40px;height:40px" alt="Ada" title="ada" />
+
+                            </div>
+                            <div class="col-xs-10">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <i class="icon-shell" title="Shell"></i>
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-1">
+
+                                <img src="img/vba.png" style="width:40px;height:40px" alt="Visual Basic for Applications (VBA)" title="Visual Basic for Applications (VBA)" />
+
+                            </div>
+                            <div class="col-xs-11">
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article style="text-align:left;color: white;max-width: 460px" ">
+                        <h4>Outils logiciels:</h4>
+                        <div class="competence_list">
+                            <ul class="list-group">
+                                <li class="list-group-item">Suite Bureautique: Word, Excel, PowerPoint</li>
+                                <li class="list-group-item">Développements web: Microsoft Visual Studio, Dreamweaver</li>
+                                <li class="list-group-item">Développements mobile Android: Android Studio</li>
+                                <li class="list-group-item">Développements Java Windows: Eclipse</li>
+                                <li class="list-group-item">Développements C: CodeBlocks, NetBeans</li>
+                                <li class="list-group-item">Développements sous Unix: Vim</li>
+                                <li class="list-group-item">Gestionnaire de version: Git, GitHub</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article style="text-align:left;color: white;max-width: 200px">
+                        <h4>Langues</h4>
+                        <div class="competence_list">
+                            <ul class="list-group">
+                                <li class="list-group-item">Anglais: Bilingue</li>
+                                <li class="list-group-item">Portugais: Courant</li>
+                                <li class="list-group-item">Espagnol: Courant</li>
+                            </ul>
+                        </div>
+
+                    </article>
+
+                    <article style="text-align:left;color: white;max-width: 570px" ">
+
+                        <h4>Centres d'intérêt</h4>
+                        <div class="competence_list">
+                            <ul class="list-group">
+                                <li class="list-group-item">Batteur, percussionniste, compositeur dans un groupe de jazz, swing, raggae</li>
+                                <li class="list-group-item">Diplôme de plongé sous-marine, niveau 1</li>
+                                <li class="list-group-item">Ailier dans l'équipe de Rugby de l'INSA de Toulouse</li>
+                            </ul>
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section_work" class="col-xs-12">
+            <h2>Portfolio</h2>
+            <hr id="barre_section_work" class="hr_titre" />
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_insaconnect" class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">INSAConnect</h2>
+                                <span class="icon-google-developers green" title="Extension Google Chrome (HTML - CSS - JavaScript)"></span>
+                                <p>Extension Google Chrome</p>
+                                <a class="right" href="https://github.com/RemiPrevost/INSAConnect" target="_blank"><i class="fa fa-github fa-2x green" title="https://github.com/RemiPrevost/INSAConnect"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="panel-body">
+
+                            <div class="row">
+
+                                <img src="img/INSAConnect.png" alt="INSAConnect" title="INSAConnect" style="width:20%;height:20%" />
+                                <p>
+                                    INSAConnect est une extension Google Chrome développée par mes soins.
+                                    L'objectif de cette extension est d'offrir aux élèves et enseignants de l'INSA une connection
+                                    automatique au réseau de l'INSA via le wifi dans les bâtiments ainsi que dans les résidences
+                                    Promologis situées sur le campus.
+                                </p>
+                                <p>
+                                    La connexion habituelle passe par une page captive ouverte à la connexion au Wifi où l'utilisateur
+                                    rentre son identifiant et son mot de passe pour se connecter puis clique sur connecter pour établir
+                                    la connexion. Cette opération est faite par mon extension à partir des identifiants fournis par
+                                    l'utilisateur à l'extension
+                                </p>
+                                <p>
+                                    Tout l'intérêt de l'extension est la sauvegarde permanente des identifiants dans le local storage.
+                                    Pour protéger le mot de passe utilisateur un système de cryptage est mis en place pour empêcher la
+                                    récupération malveillante de cette information.
+                                </p>
+
+                                <a href="https://chrome.google.com/webstore/detail/insaconnect/ipknkpmelpleiioecfmjhapoojcbfpmb?" target="_blank">
+                                    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="Google Chrome Store" />
+                                </a>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    HTML5<i class="fa fa-html5 fa-2x green" style="padding-left:10px;padding-right:10px" title="HTML"></i>
+                                    CSS3<i class="fa fa-css3 fa-2x green" style="padding-left:7px;padding-right:10px" title="CSS"></i>
+                                    JavaScript<i class="icon-javascript green" style="font-size:2.3em;" title=" Javascript"></i>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_riosport" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">RioSport</h2>
+                                <span class="fa fa-android fa-2x green" style="margin-left:10px" title="Application Android avec Web Service (Java - PHP - SOAP - MySQL)"></span>
+                                <p>Application Android avec Web Service</p>
+                                <a class="right" href="https://github.com/RemiPrevost/RJ" target="_blank"><i class="fa fa-github fa-2x green" title="https://github.com/RemiPrevost/RJ"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <img src="img/RioSport.png" alt="RioSport" title="RioSport" style="width:20%;height:20%" />
+                                <p>
+                                    RioSport est une application Android développée en Java au cours de mon semestre d'étude au Brésil.
+                                    Nous avons été 3 a réaliser ce projet. Il s'agissait de créer un réseau social autour du sport.
+                                    L'application permet de mettre en contact des utilisateurs désirant se rencontrer pour pratiquer leur sport
+                                    ensemble.
+                                </p>
+                                <p>
+                                    Ce projet comporte la création de 4 modules complémentaires. Il se compose d'un client Android développé
+                                    en Java avec le logiciel Netbeans, d'un serveur PHP qui interroge une base de donnée MySQL ainsi que d'un Web
+                                    Service faisant le lien entre le serveur et le client en transmettant les informations au format XML.
+                                </p>
+                                <p>
+                                    Chaque utilisateur est enregistré dans notre base de donnée mais sa connexion à notre application se fait
+                                    à travers la connexion à son compte Google Plus. Il doit donc posséder un compte Google Plus pour pouvoir
+                                    utiliser l'application ce que la plupart des utilisateurs d'un smartphone Android possèdent. Nous avons
+                                    donc utilisé l'API Google+ dans notre application.
+                                </p>
+                                <p>
+                                    Une fois connecté, l'utilisateur peut publier des évènements sportifs à venir ou consulter ceux publiés par
+                                    ses amis ou ceux qui sont publics afin d'y participer.
+                                </p>
+                                <p>
+                                    Ce projet a été réalisé dans le cadre du cours Software para Smartphone suivi à l'UFRJ avec le professeur
+                                    Sergio Barbosa Villas-Boas (<a href="http://www.sbvb.com.br/" target="_blank">www.sbvb.com.br/</a>).
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    Java <i class="icon-java-bold green" style="font-size:3em;padding-right:10px" title="Java"></i>
+                                    PHP <i class="icon-php green" style="font-size:3em;padding-left:7px;padding-right:10px" title="PHP"></i>
+                                    MySQL <i class="icon-mysql green" style="font-size:3em;padding-left:7px;" title="MySQL"></i>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_rj" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">RJ - Carnet de voyage</h2>
+                                <i class="glyphicon glyphicon-globe green" title="HTML - CSS - JavaScript - PHP - MySQL"></i>
+                                <p>Site Web dynamique</p>
+                                <a class="right" href="https://github.com/RemiPrevost/INSAConnect" target="_blank"><i class="fa fa-github fa-2x green" title="Github"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <img src="img/rj.png" alt="RJ" title="RJ" style="width:20%;height:20%" />
+                                <p>
+                                    Ce site web est un des premiers sites statiques que j'ai conçu. Je l'ai crée lors de mon semestre
+                                    au Brésil. Il fallait alors que j'apprenne les bases du développement web et que je donne des
+                                    nouvelles à mes amis et ma famille en France. J'ai donc décidé de croiser les deux besoins en créant
+                                    mon propre blog.
+                                </p>
+                                <p>
+                                    Jetez y un coup d'oeil: <a href="https://www.etud.insa-toulouse.fr/~rprevost/RJ/rj-carnet-de-voyage.php" target="_blank">RJ - Carnet de voyage</a>
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    HTML5<i class="fa fa-html5 fa-2x green" style="padding-left:10px;padding-right:10px" title="HTML"></i>
+                                    CSS3<i class="fa fa-css3 fa-2x green" style="padding-left:7px;padding-right:10px" title="CSS"></i>
+                                    JavaScript<i class="icon-javascript green" style="font-size:2.3em;" title=" Javascript"></i>
+                                    PHP <i class="icon-php green" style="font-size:3em;padding-left:7px;padding-right:10px" title="PHP"></i>
+                                    MySQL <i class="icon-mysql green" style="font-size:3em;padding-left:7px;" title="MySQL"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_rj" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">IEEE 802.11n</h2>
+                                <i class="glyphicon glyphicon-globe green" title="HTML - CSS - JavaScript"></i>
+                                <p>Site Web Statique</p>
+                                <a class="right" href="https://github.com/RemiPrevost/INSAConnect" target="_blank"><i class="fa fa-github fa-2x green" title="Github"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <img src="img/wifiN.png" alt="WifiN" title="WifiN" style="width:20%;height:20%" />
+                                <p>
+                                    Voici un site web statique basique qui contient un exposé sur la norme IEEE 802.11n,
+                                    autrement appelée WifiN. Ce site, rédigé en anglais, a été réalisé dans le cadre de cours Redes de Computadores II (Réseaux II)
+                                    enseigné par Luís Henrique M. K. Costa.
+                                </p>
+                                <p>
+                                    Jetez y un coup d'oeil: <a href="http://www.gta.ufrj.br/ensino/eel879/trabalhos_vf_2014_2/remi/" target="_blank">IEEE 802.11n</a>
+                                </p>
+                                <p>
+                                    Si le site de l'UFRJ ne fonctionne pas, essayez ce <a href="https://www.etud.insa-toulouse.fr/~rprevost/IEEE802.11n/" target="_blank">lien</a>.
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    HTML5<i class="fa fa-html5 fa-2x green" style="padding-left:10px;padding-right:10px" title="HTML"></i>
+                                    CSS3<i class="fa fa-css3 fa-2x green" style="padding-left:7px;padding-right:10px" title="CSS"></i>
+                                    JavaScript<i class="icon-javascript green" style="font-size:2.3em;" title=" Javascript"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_rj" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">MovieFinder</h2>
+                                <i class="fa fa-windows fa-2x green" title="HTML - CSS - JavaScript"></i>
+                                <p>Application Windows</p>
+                                <a class="right" href="https://github.com/RemiPrevost/MovieFinder" target="_blank"><i class="fa fa-github fa-2x green" title="Github"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <img src="img/MovieFinder.png" alt="MovieFinder" title="MovieFinder" style="width:20%;height:20%" />
+                                <p>
+                                    MovieFinder est un logiciel pour Windows capable d'analyser les films présents sur le disque dur de l'utilisateur
+                                    et de les organiser dans une bibliothèque intuitive.
+                                </p>
+                                <p>
+                                    A partir du nom du film, une requête au site web <a href="http://www.allocine.fr/">Allociné</a> est envoyé.
+                                    C'est la page de recherche qui est visée. La page contient 5 films avec leur nom et leur date de réalisation
+                                    pouvant correspondre au film de l'utilisateur. Une analyse du contenu html de la page reçu permet de récupérer ces élements
+                                    et de les présenter à l'utilisateur. Celui-ci choisit celui qui correspond effectivement au film qu'il
+                                    possède. Une nouvelle requête est ensuite de nouveau envoyé à <a href="http://www.allocine.fr/">Allociné</a> vers la page
+                                    exacte de ce film. Une dernière analyse de la page html permet de récupérer la date de réalisation, les 3 acteurs principaux,
+                                    les 3 réalisateurs principaux, le genre, la note sur 5 des utilisateurs du site et l'affiche. Ces informations sont stockées
+                                    dans la base de donnée contruite en PostgreSQL.
+                                </p>
+                                <p>
+                                    La dernière information contenue dans la base de donnée est si le film a déjà été visionné par l'utilisateur ou non.
+                                    C'est là que l'application prend tout son sens. Un soir, un utilisateur peut avoir envie de regarder un film où Brad Pitt joue
+                                    et qu'il n'a pas encore visonné ou bien encore tous les films d'action datant d'avant 2000. Il n'a qu'à entrer ces critères
+                                    dans la bibliothèque et une liste de tels films lui est proposé. Il n'a plus alors qu'à choisir le film en fonction de sa note
+                                    sur <a href="http://www.allocine.fr/">Allociné</a> (qu'il peut modifier à tout moment), ou bien du réalisateur et cliquer
+                                    sur lecture.
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    Java <i class="icon-java-bold green" style="font-size:3em;padding-right:10px" title="Java"></i>
+                                    PostgreSQL <i class="icon-postgres green" style="font-size:3em;" title="PostgreSQL"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">Tir-Laser</h2>
+                                <i class="icon-target green" title="Assembleur - C"></i>
+                                <p>Electronique et programmation bas niveau</p>
+                                <a class="right" href="https://github.com/RemiPrevost/INSAConnect" target="_blank"><i class="fa fa-github fa-2x green" title="Github"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <img src="img/tir_sur_cible.png" alt="Tir-Laser" title="Tir-Laser" style="width:20%;height:20%" />
+                                <p>
+                                    Description
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    Assembleur -
+                                    C <i class="icon-c green" style="font-size:3em;" title="PostgreSQL"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">SimpTCP</h2>
+                                <i class="fa fa-wifi fa-2x green" title="C"></i>
+                                <p>Programmation réseau</p>
+                                <a class="right" href="https://github.com/RemiPrevost/INSAConnect" target="_blank"><i class="fa fa-github fa-2x green" title="Github"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <p>
+                                    INSAConnect est une extension Google Chrome développée par mes soins.
+                                    L'objectif de cette extension est d'offrir aux élèves et enseignants de l'INSA une connection
+                                    automatique au réseau de l'INSA via le wifi dans les bâtiments ainsi que dans les résidences
+                                    Promologis situées sur le campus.
+                                </p>
+                                <p>
+                                    La connexion habituelle passe par une page captive ouverte à la connexion au Wifi où l'utilisateur
+                                    rentre son identifiant et son mot de passe pour se connecter puis clique sur connecter pour établir
+                                    la connexion. Cette opération est faite par mon extension à partir des identifiants fournis par
+                                    l'utilisateur à l'extension
+                                </p>
+                                <p>
+                                    Tout l'intérêt de l'extension est la sauvegarde permanente des identifiants dans le local storage.
+                                    Pour protéger le mot de passe utilisateur un système de cryptage est mis en place pour empêcher la
+                                    récupération malveillante de cette information.
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    C <i class="icon-c green" style="font-size:3em;" title="PostgreSQL"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">Création d'itinéraire</h2>
+                                <i class="fa fa-linux fa-2x green" style="font-size:2em;" title=" java"></i>
+                                <p>Meilleur itinéraire - théorie des graphes</p>
+                                <a class="right" href="https://github.com/RemiPrevost/INSAConnect" target="_blank"><i class="fa fa-github fa-2x green" title="Github"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <p>
+                                    INSAConnect est une extension Google Chrome développée par mes soins.
+                                    L'objectif de cette extension est d'offrir aux élèves et enseignants de l'INSA une connection
+                                    automatique au réseau de l'INSA via le wifi dans les bâtiments ainsi que dans les résidences
+                                    Promologis situées sur le campus.
+                                </p>
+                                <p>
+                                    La connexion habituelle passe par une page captive ouverte à la connexion au Wifi où l'utilisateur
+                                    rentre son identifiant et son mot de passe pour se connecter puis clique sur connecter pour établir
+                                    la connexion. Cette opération est faite par mon extension à partir des identifiants fournis par
+                                    l'utilisateur à l'extension
+                                </p>
+                                <p>
+                                    Tout l'intérêt de l'extension est la sauvegarde permanente des identifiants dans le local storage.
+                                    Pour protéger le mot de passe utilisateur un système de cryptage est mis en place pour empêcher la
+                                    récupération malveillante de cette information.
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    C <i class="icon-c green" style="font-size:3em;" title="PostgreSQL"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div id="work_" class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h2 class="panel-title">Aggrégateur d'image</h2>
+                                <i class="fa fa-windows fa-2x green" title="C"></i>
+                                <p>Aggrégateur et désaggrégateur d'images</p>
+                                <a class="right" href="https://github.com/RemiPrevost/INSAConnect" target="_blank"><i class="fa fa-github fa-2x green" title="Github"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <p>
+                                    INSAConnect est une extension Google Chrome développée par mes soins.
+                                    L'objectif de cette extension est d'offrir aux élèves et enseignants de l'INSA une connection
+                                    automatique au réseau de l'INSA via le wifi dans les bâtiments ainsi que dans les résidences
+                                    Promologis situées sur le campus.
+                                </p>
+                                <p>
+                                    La connexion habituelle passe par une page captive ouverte à la connexion au Wifi où l'utilisateur
+                                    rentre son identifiant et son mot de passe pour se connecter puis clique sur connecter pour établir
+                                    la connexion. Cette opération est faite par mon extension à partir des identifiants fournis par
+                                    l'utilisateur à l'extension
+                                </p>
+                                <p>
+                                    Tout l'intérêt de l'extension est la sauvegarde permanente des identifiants dans le local storage.
+                                    Pour protéger le mot de passe utilisateur un système de cryptage est mis en place pour empêcher la
+                                    récupération malveillante de cette information.
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <hr style="width:90%;" />
+
+                                <p style=" text-align:center;">
+                                    C <i class="icon-c green" style="font-size:3em;" title="PostgreSQL"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+
+
+
+</html>
+
+<!--<script src="bootstrap/js/scrollspy.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>-->
+<script>
+    $(window).scroll(function () {
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar-fixed-top").addClass("top-nav-collapse");
+        }
+        else {
+            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        }
+    });
+
+    $('.intro').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('h1').css('color', "white");
+    });
+
+    $('#section_about h2').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('.hr_titre').css('right', "0");
+        $('.hr_titre').css('opacity', "1");
+    });
+
+    $('#section_cv h2').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('.hr_titre').css('right', "0");
+        $('.hr_titre').css('opacity', "1");
+    });
+
+    $('#section_work h2').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('.hr_titre').css('right', "0");
+        $('.hr_titre').css('opacity', "1");
+    });
+
+    $('#prog_lang h4').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        var progress_bars = $('.progress-bar');
+        for (var i = 0; i < progress_bars.length; i++) {
+            $(progress_bars[i]).css('width', progress_bars[i].attributes['aria-valuenow'].value + "%");
+        }
+    });
+
+    $('#timeline_dev').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('#timeline_dev div').css('left', "0");
+    });
+
+    $('#timeline_form').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('#timeline_form div').css('left', "0");
+    });
+
+    $('#timeline_prof').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('#timeline_prof div').css('left', "0");
+    });
+
+    $('#timeline_voyage').bind('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        $('#timeline_voyage div').css('left', "0");
+    });
+
+</script>

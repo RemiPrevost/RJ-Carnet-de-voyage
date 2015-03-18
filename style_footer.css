@@ -1,0 +1,30 @@
+footer
+{
+	background-color: white;
+	margin : 15px;
+	padding : 5px;
+	padding-left : 10px;
+	
+	border: 2px outset black;
+	border-radius: 10px;
+}
+
+footer #p_right
+{
+	position: absolute;
+	right: 30px;
+	bottom: 60px;
+	text-align: right;
+}
+
+footer #p_left
+{
+	height : 100%;
+	width: 100%;
+}
+
+footer img
+{
+	margin-top : 0px;
+	margin-right : 10px;
+}

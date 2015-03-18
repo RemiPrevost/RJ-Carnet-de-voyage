@@ -1,0 +1,18 @@
+#fiche img
+{
+	float: left;
+	border : 1px outset black;
+	margin: 15px;
+}
+
+#fiche
+{
+	height: 450px;
+	width : 800px;
+}
+
+.texte
+{
+	margin-left : 200px;
+	margin-top: 40px;
+}
